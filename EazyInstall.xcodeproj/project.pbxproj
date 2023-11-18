@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9828D9CE2B00ABFA001BF31E /* TextPostProcessor.c in Sources */ = {isa = PBXBuildFile; fileRef = 9828D9CD2B00ABFA001BF31E /* TextPostProcessor.c */; };
+		985C94652AEDD4E70075AEDA /* UserManuelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C94642AEDD4E70075AEDA /* UserManuelViewModel.swift */; };
+		985C94672AF1BE950075AEDA /* CacheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C94662AF1BE950075AEDA /* CacheViewModel.swift */; };
 		986B838F2AD4D892003D6458 /* EazyInstallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B838E2AD4D892003D6458 /* EazyInstallApp.swift */; };
 		986B83912AD4D892003D6458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83902AD4D892003D6458 /* ContentView.swift */; };
 		986B83932AD4D892003D6458 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83922AD4D892003D6458 /* Item.swift */; };
@@ -15,6 +18,21 @@
 		986B83A22AD4D896003D6458 /* EazyInstallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83A12AD4D896003D6458 /* EazyInstallTests.swift */; };
 		986B83AC2AD4D896003D6458 /* EazyInstallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83AB2AD4D896003D6458 /* EazyInstallUITests.swift */; };
 		986B83AE2AD4D896003D6458 /* EazyInstallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83AD2AD4D896003D6458 /* EazyInstallUITestsLaunchTests.swift */; };
+		986B83BE2AD4DB3E003D6458 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83BD2AD4DB3E003D6458 /* FirebaseAnalytics */; };
+		986B83C02AD4DB3E003D6458 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83BF2AD4DB3E003D6458 /* FirebaseAnalyticsSwift */; };
+		986B83C22AD4DB3E003D6458 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83C12AD4DB3E003D6458 /* FirebaseAuth */; };
+		986B83C42AD4DB3E003D6458 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83C32AD4DB3E003D6458 /* FirebaseDynamicLinks */; };
+		986B83C62AD4DB3E003D6458 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83C52AD4DB3E003D6458 /* FirebaseFirestore */; };
+		986B83C82AD4DB3E003D6458 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83C72AD4DB3E003D6458 /* FirebaseFirestoreCombine-Community */; };
+		986B83CA2AD4DB3E003D6458 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83C92AD4DB3E003D6458 /* FirebaseFirestoreSwift */; };
+		986B83CC2AD4DB3E003D6458 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83CB2AD4DB3E003D6458 /* FirebaseMLModelDownloader */; };
+		986B83CE2AD4DB3E003D6458 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83CD2AD4DB3E003D6458 /* FirebaseStorage */; };
+		986B83D02AD4EF0A003D6458 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83CF2AD4EF0A003D6458 /* TextModel.swift */; };
+		986B83D22AD4EF47003D6458 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83D12AD4EF47003D6458 /* ScannerViewModel.swift */; };
+		986B83D42AD4EF7A003D6458 /* TexRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83D32AD4EF7A003D6458 /* TexRecognitionService.swift */; };
+		986B83D62AD4FD0C003D6458 /* Chatgpt Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83D52AD4FD0C003D6458 /* Chatgpt Service.swift */; };
+		986B83D92AD4FEA8003D6458 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83D82AD4FEA8003D6458 /* Alamofire */; };
+		986B83DC2AD63582003D6458 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83DB2AD63582003D6458 /* OpenAI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9828D9CB2B00ABFA001BF31E /* EazyInstall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EazyInstall-Bridging-Header.h"; sourceTree = "<group>"; };
+		9828D9CC2B00ABFA001BF31E /* TextPostProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextPostProcessor.h; sourceTree = "<group>"; };
+		9828D9CD2B00ABFA001BF31E /* TextPostProcessor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TextPostProcessor.c; sourceTree = "<group>"; };
+		985C94642AEDD4E70075AEDA /* UserManuelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManuelViewModel.swift; sourceTree = "<group>"; };
+		985C94662AF1BE950075AEDA /* CacheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheViewModel.swift; sourceTree = "<group>"; };
 		986B838B2AD4D892003D6458 /* EazyInstall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EazyInstall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986B838E2AD4D892003D6458 /* EazyInstallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EazyInstallApp.swift; sourceTree = "<group>"; };
 		986B83902AD4D892003D6458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +69,10 @@
 		986B83A72AD4D896003D6458 /* EazyInstallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EazyInstallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		986B83AB2AD4D896003D6458 /* EazyInstallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EazyInstallUITests.swift; sourceTree = "<group>"; };
 		986B83AD2AD4D896003D6458 /* EazyInstallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EazyInstallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		986B83CF2AD4EF0A003D6458 /* TextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
+		986B83D12AD4EF47003D6458 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		986B83D32AD4EF7A003D6458 /* TexRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexRecognitionService.swift; sourceTree = "<group>"; };
+		986B83D52AD4FD0C003D6458 /* Chatgpt Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chatgpt Service.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986B83C02AD4DB3E003D6458 /* FirebaseAnalyticsSwift in Frameworks */,
+				986B83DC2AD63582003D6458 /* OpenAI in Frameworks */,
+				986B83C22AD4DB3E003D6458 /* FirebaseAuth in Frameworks */,
+				986B83CE2AD4DB3E003D6458 /* FirebaseStorage in Frameworks */,
+				986B83BE2AD4DB3E003D6458 /* FirebaseAnalytics in Frameworks */,
+				986B83CC2AD4DB3E003D6458 /* FirebaseMLModelDownloader in Frameworks */,
+				986B83D92AD4FEA8003D6458 /* Alamofire in Frameworks */,
+				986B83CA2AD4DB3E003D6458 /* FirebaseFirestoreSwift in Frameworks */,
+				986B83C82AD4DB3E003D6458 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				986B83C62AD4DB3E003D6458 /* FirebaseFirestore in Frameworks */,
+				986B83C42AD4DB3E003D6458 /* FirebaseDynamicLinks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,10 +135,19 @@
 			isa = PBXGroup;
 			children = (
 				986B838E2AD4D892003D6458 /* EazyInstallApp.swift */,
+				9828D9CC2B00ABFA001BF31E /* TextPostProcessor.h */,
+				9828D9CD2B00ABFA001BF31E /* TextPostProcessor.c */,
 				986B83902AD4D892003D6458 /* ContentView.swift */,
 				986B83922AD4D892003D6458 /* Item.swift */,
 				986B83942AD4D895003D6458 /* Assets.xcassets */,
 				986B83962AD4D895003D6458 /* Preview Content */,
+				986B83CF2AD4EF0A003D6458 /* TextModel.swift */,
+				986B83D12AD4EF47003D6458 /* ScannerViewModel.swift */,
+				986B83D32AD4EF7A003D6458 /* TexRecognitionService.swift */,
+				986B83D52AD4FD0C003D6458 /* Chatgpt Service.swift */,
+				985C94642AEDD4E70075AEDA /* UserManuelViewModel.swift */,
+				985C94662AF1BE950075AEDA /* CacheViewModel.swift */,
+				9828D9CB2B00ABFA001BF31E /* EazyInstall-Bridging-Header.h */,
 			);
 			path = EazyInstall;
 			sourceTree = "<group>";
@@ -146,6 +193,19 @@
 			dependencies = (
 			);
 			name = EazyInstall;
+			packageProductDependencies = (
+				986B83BD2AD4DB3E003D6458 /* FirebaseAnalytics */,
+				986B83BF2AD4DB3E003D6458 /* FirebaseAnalyticsSwift */,
+				986B83C12AD4DB3E003D6458 /* FirebaseAuth */,
+				986B83C32AD4DB3E003D6458 /* FirebaseDynamicLinks */,
+				986B83C52AD4DB3E003D6458 /* FirebaseFirestore */,
+				986B83C72AD4DB3E003D6458 /* FirebaseFirestoreCombine-Community */,
+				986B83C92AD4DB3E003D6458 /* FirebaseFirestoreSwift */,
+				986B83CB2AD4DB3E003D6458 /* FirebaseMLModelDownloader */,
+				986B83CD2AD4DB3E003D6458 /* FirebaseStorage */,
+				986B83D82AD4FEA8003D6458 /* Alamofire */,
+				986B83DB2AD63582003D6458 /* OpenAI */,
+			);
 			productName = EazyInstall;
 			productReference = 986B838B2AD4D892003D6458 /* EazyInstall.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +258,7 @@
 				TargetAttributes = {
 					986B838A2AD4D892003D6458 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 					986B839C2AD4D896003D6458 = {
 						CreatedOnToolsVersion = 15.0;
@@ -218,6 +279,11 @@
 				Base,
 			);
 			mainGroup = 986B83822AD4D892003D6458;
+			packageReferences = (
+				986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				986B83D72AD4FEA8003D6458 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				986B83DA2AD63582003D6458 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
 			productRefGroup = 986B838C2AD4D892003D6458 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +326,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986B83D22AD4EF47003D6458 /* ScannerViewModel.swift in Sources */,
+				985C94652AEDD4E70075AEDA /* UserManuelViewModel.swift in Sources */,
+				986B83D02AD4EF0A003D6458 /* TextModel.swift in Sources */,
 				986B83912AD4D892003D6458 /* ContentView.swift in Sources */,
+				985C94672AF1BE950075AEDA /* CacheViewModel.swift in Sources */,
 				986B83932AD4D892003D6458 /* Item.swift in Sources */,
+				986B83D62AD4FD0C003D6458 /* Chatgpt Service.swift in Sources */,
 				986B838F2AD4D892003D6458 /* EazyInstallApp.swift in Sources */,
+				986B83D42AD4EF7A003D6458 /* TexRecognitionService.swift in Sources */,
+				9828D9CE2B00ABFA001BF31E /* TextPostProcessor.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,12 +496,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EazyInstall/Preview Content\"";
-				DEVELOPMENT_TEAM = 4M944BLQT7;
+				DEVELOPMENT_TEAM = 8QHSLQU2WK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow Use of Camera for Scanning";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,6 +517,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com..EazyInstall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EazyInstall/EazyInstall-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,12 +529,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EazyInstall/Preview Content\"";
-				DEVELOPMENT_TEAM = 4M944BLQT7;
+				DEVELOPMENT_TEAM = 8QHSLQU2WK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow Use of Camera for Scanning";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -471,6 +550,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com..EazyInstall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EazyInstall/EazyInstall-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -592,6 +672,91 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.16.0;
+			};
+		};
+		986B83D72AD4FEA8003D6458 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+		986B83DA2AD63582003D6458 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		986B83BD2AD4DB3E003D6458 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		986B83BF2AD4DB3E003D6458 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		986B83C12AD4DB3E003D6458 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		986B83C32AD4DB3E003D6458 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		986B83C52AD4DB3E003D6458 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		986B83C72AD4DB3E003D6458 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		986B83C92AD4DB3E003D6458 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		986B83CB2AD4DB3E003D6458 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		986B83CD2AD4DB3E003D6458 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		986B83D82AD4FEA8003D6458 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83D72AD4FEA8003D6458 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		986B83DB2AD63582003D6458 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986B83DA2AD63582003D6458 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 986B83832AD4D892003D6458 /* Project object */;
 }

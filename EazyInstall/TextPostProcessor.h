@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+char* processText(const char* input);
+
 #endif /* TextPostProcessor_h */

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "DALL·E 2023-11-12 19.33.17 - A 'save' icon designed for an iOS app. The icon should be simple and intuitive, featuring a classic floppy disk design, commonly associated with savin 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "DALL·E 2023-11-12 19.33.17 - A 'save' icon designed for an iOS app. The icon should be simple and intuitive, featuring a classic floppy disk design, commonly associated with savin.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "DALL·E 2023-11-12 19.33.17 - A 'save' icon designed for an iOS app. The icon should be simple and intuitive, featuring a classic floppy disk design, commonly associated with savin 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

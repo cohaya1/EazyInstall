@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+struct TextModel {
+    var originalText: String
+    var simplifiedText: String?
+}
