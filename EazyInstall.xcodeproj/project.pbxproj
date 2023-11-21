@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9828D9CE2B00ABFA001BF31E /* TextPostProcessor.c in Sources */ = {isa = PBXBuildFile; fileRef = 9828D9CD2B00ABFA001BF31E /* TextPostProcessor.c */; };
+		9828D9D02B01A483001BF31E /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9828D9CF2B01A483001BF31E /* AuthViewModel.swift */; };
+		9828D9D32B01DB76001BF31E /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 9828D9D22B01DB76001BF31E /* GoogleSignIn */; };
+		9828D9D52B01DB76001BF31E /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9828D9D42B01DB76001BF31E /* GoogleSignInSwift */; };
+		9828D9D72B01E098001BF31E /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9828D9D62B01E098001BF31E /* MyProfileView.swift */; };
+		9828D9D92B01E0BF001BF31E /* InstallationGuideItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9828D9D82B01E0BF001BF31E /* InstallationGuideItem.swift */; };
+		9828D9DB2B06DBA0001BF31E /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9828D9DA2B06DBA0001BF31E /* Posts.swift */; };
 		985C94652AEDD4E70075AEDA /* UserManuelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C94642AEDD4E70075AEDA /* UserManuelViewModel.swift */; };
 		985C94672AF1BE950075AEDA /* CacheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C94662AF1BE950075AEDA /* CacheViewModel.swift */; };
 		986B838F2AD4D892003D6458 /* EazyInstallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B838E2AD4D892003D6458 /* EazyInstallApp.swift */; };
 		986B83912AD4D892003D6458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83902AD4D892003D6458 /* ContentView.swift */; };
-		986B83932AD4D892003D6458 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83922AD4D892003D6458 /* Item.swift */; };
 		986B83952AD4D895003D6458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986B83942AD4D895003D6458 /* Assets.xcassets */; };
 		986B83982AD4D895003D6458 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986B83972AD4D895003D6458 /* Preview Assets.xcassets */; };
 		986B83A22AD4D896003D6458 /* EazyInstallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83A12AD4D896003D6458 /* EazyInstallTests.swift */; };
@@ -33,6 +38,9 @@
 		986B83D62AD4FD0C003D6458 /* Chatgpt Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B83D52AD4FD0C003D6458 /* Chatgpt Service.swift */; };
 		986B83D92AD4FEA8003D6458 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83D82AD4FEA8003D6458 /* Alamofire */; };
 		986B83DC2AD63582003D6458 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 986B83DB2AD63582003D6458 /* OpenAI */; };
+		98BFF50E2B080216005C06F8 /* ScannedTextModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98BFF50C2B080216005C06F8 /* ScannedTextModel.xcdatamodeld */; };
+		98BFF5102B0802F8005C06F8 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BFF50F2B0802F8005C06F8 /* CoreDataViewModel.swift */; };
+		98BFF5122B0848F0005C06F8 /* SharedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BFF5112B0848F0005C06F8 /* SharedDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +64,15 @@
 		9828D9CB2B00ABFA001BF31E /* EazyInstall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EazyInstall-Bridging-Header.h"; sourceTree = "<group>"; };
 		9828D9CC2B00ABFA001BF31E /* TextPostProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextPostProcessor.h; sourceTree = "<group>"; };
 		9828D9CD2B00ABFA001BF31E /* TextPostProcessor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TextPostProcessor.c; sourceTree = "<group>"; };
+		9828D9CF2B01A483001BF31E /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9828D9D62B01E098001BF31E /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		9828D9D82B01E0BF001BF31E /* InstallationGuideItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationGuideItem.swift; sourceTree = "<group>"; };
+		9828D9DA2B06DBA0001BF31E /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		985C94642AEDD4E70075AEDA /* UserManuelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManuelViewModel.swift; sourceTree = "<group>"; };
 		985C94662AF1BE950075AEDA /* CacheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheViewModel.swift; sourceTree = "<group>"; };
 		986B838B2AD4D892003D6458 /* EazyInstall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EazyInstall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986B838E2AD4D892003D6458 /* EazyInstallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EazyInstallApp.swift; sourceTree = "<group>"; };
 		986B83902AD4D892003D6458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		986B83922AD4D892003D6458 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		986B83942AD4D895003D6458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		986B83972AD4D895003D6458 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		986B839D2AD4D896003D6458 /* EazyInstallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EazyInstallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +84,9 @@
 		986B83D12AD4EF47003D6458 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
 		986B83D32AD4EF7A003D6458 /* TexRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexRecognitionService.swift; sourceTree = "<group>"; };
 		986B83D52AD4FD0C003D6458 /* Chatgpt Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chatgpt Service.swift"; sourceTree = "<group>"; };
+		98BFF50D2B080216005C06F8 /* ScannedTextModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScannedTextModel.xcdatamodel; sourceTree = "<group>"; };
+		98BFF50F2B0802F8005C06F8 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		98BFF5112B0848F0005C06F8 /* SharedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,8 @@
 				986B83C22AD4DB3E003D6458 /* FirebaseAuth in Frameworks */,
 				986B83CE2AD4DB3E003D6458 /* FirebaseStorage in Frameworks */,
 				986B83BE2AD4DB3E003D6458 /* FirebaseAnalytics in Frameworks */,
+				9828D9D52B01DB76001BF31E /* GoogleSignInSwift in Frameworks */,
+				9828D9D32B01DB76001BF31E /* GoogleSignIn in Frameworks */,
 				986B83CC2AD4DB3E003D6458 /* FirebaseMLModelDownloader in Frameworks */,
 				986B83D92AD4FEA8003D6458 /* Alamofire in Frameworks */,
 				986B83CA2AD4DB3E003D6458 /* FirebaseFirestoreSwift in Frameworks */,
@@ -134,11 +150,15 @@
 		986B838D2AD4D892003D6458 /* EazyInstall */ = {
 			isa = PBXGroup;
 			children = (
+				98BFF50C2B080216005C06F8 /* ScannedTextModel.xcdatamodeld */,
 				986B838E2AD4D892003D6458 /* EazyInstallApp.swift */,
 				9828D9CC2B00ABFA001BF31E /* TextPostProcessor.h */,
 				9828D9CD2B00ABFA001BF31E /* TextPostProcessor.c */,
 				986B83902AD4D892003D6458 /* ContentView.swift */,
-				986B83922AD4D892003D6458 /* Item.swift */,
+				9828D9D62B01E098001BF31E /* MyProfileView.swift */,
+				98BFF5112B0848F0005C06F8 /* SharedDataModel.swift */,
+				9828D9DA2B06DBA0001BF31E /* Posts.swift */,
+				9828D9D82B01E0BF001BF31E /* InstallationGuideItem.swift */,
 				986B83942AD4D895003D6458 /* Assets.xcassets */,
 				986B83962AD4D895003D6458 /* Preview Content */,
 				986B83CF2AD4EF0A003D6458 /* TextModel.swift */,
@@ -148,6 +168,8 @@
 				985C94642AEDD4E70075AEDA /* UserManuelViewModel.swift */,
 				985C94662AF1BE950075AEDA /* CacheViewModel.swift */,
 				9828D9CB2B00ABFA001BF31E /* EazyInstall-Bridging-Header.h */,
+				9828D9CF2B01A483001BF31E /* AuthViewModel.swift */,
+				98BFF50F2B0802F8005C06F8 /* CoreDataViewModel.swift */,
 			);
 			path = EazyInstall;
 			sourceTree = "<group>";
@@ -205,6 +227,8 @@
 				986B83CD2AD4DB3E003D6458 /* FirebaseStorage */,
 				986B83D82AD4FEA8003D6458 /* Alamofire */,
 				986B83DB2AD63582003D6458 /* OpenAI */,
+				9828D9D22B01DB76001BF31E /* GoogleSignIn */,
+				9828D9D42B01DB76001BF31E /* GoogleSignInSwift */,
 			);
 			productName = EazyInstall;
 			productReference = 986B838B2AD4D892003D6458 /* EazyInstall.app */;
@@ -283,6 +307,7 @@
 				986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				986B83D72AD4FEA8003D6458 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				986B83DA2AD63582003D6458 /* XCRemoteSwiftPackageReference "OpenAI" */,
+				9828D9D12B01DB76001BF31E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 986B838C2AD4D892003D6458 /* Products */;
 			projectDirPath = "";
@@ -328,11 +353,17 @@
 			files = (
 				986B83D22AD4EF47003D6458 /* ScannerViewModel.swift in Sources */,
 				985C94652AEDD4E70075AEDA /* UserManuelViewModel.swift in Sources */,
+				98BFF5122B0848F0005C06F8 /* SharedDataModel.swift in Sources */,
 				986B83D02AD4EF0A003D6458 /* TextModel.swift in Sources */,
+				98BFF50E2B080216005C06F8 /* ScannedTextModel.xcdatamodeld in Sources */,
 				986B83912AD4D892003D6458 /* ContentView.swift in Sources */,
+				9828D9D92B01E0BF001BF31E /* InstallationGuideItem.swift in Sources */,
+				9828D9DB2B06DBA0001BF31E /* Posts.swift in Sources */,
+				9828D9D72B01E098001BF31E /* MyProfileView.swift in Sources */,
 				985C94672AF1BE950075AEDA /* CacheViewModel.swift in Sources */,
-				986B83932AD4D892003D6458 /* Item.swift in Sources */,
 				986B83D62AD4FD0C003D6458 /* Chatgpt Service.swift in Sources */,
+				98BFF5102B0802F8005C06F8 /* CoreDataViewModel.swift in Sources */,
+				9828D9D02B01A483001BF31E /* AuthViewModel.swift in Sources */,
 				986B838F2AD4D892003D6458 /* EazyInstallApp.swift in Sources */,
 				986B83D42AD4EF7A003D6458 /* TexRecognitionService.swift in Sources */,
 				9828D9CE2B00ABFA001BF31E /* TextPostProcessor.c in Sources */,
@@ -674,6 +705,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9828D9D12B01DB76001BF31E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 		986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -701,6 +740,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9828D9D22B01DB76001BF31E /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9828D9D12B01DB76001BF31E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		9828D9D42B01DB76001BF31E /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9828D9D12B01DB76001BF31E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
 		986B83BD2AD4DB3E003D6458 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 986B83BC2AD4DB3E003D6458 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -757,6 +806,19 @@
 			productName = OpenAI;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		98BFF50C2B080216005C06F8 /* ScannedTextModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98BFF50D2B080216005C06F8 /* ScannedTextModel.xcdatamodel */,
+			);
+			currentVersion = 98BFF50D2B080216005C06F8 /* ScannedTextModel.xcdatamodel */;
+			path = ScannedTextModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 986B83832AD4D892003D6458 /* Project object */;
 }

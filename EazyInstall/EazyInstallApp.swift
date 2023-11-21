@@ -6,39 +6,42 @@
 //
 
 import SwiftUI
-import SwiftData
-
+import UIKit
+import CoreData
 
 class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-   
+    var persistentContainer: NSPersistentContainer = {
+        // Replace 'YourModel' with your actual data model name
+        let container = NSPersistentContainer(name: "ScannedTextModel")
+        container.loadPersistentStores { _, error in
+            if let error = error as NSError? {
+                // Handle the error appropriately
+            }
+        }
+        return container
+    }()
 
-    return true
-  }
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        return true
+    }
+
+    // Add any additional AppDelegate methods here
 }
+
 
 @main
 struct EazyInstallApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        let context = delegate.persistentContainer.viewContext
+        let coreDataViewModel = CoreDataViewModel(managedObjectContext: context)
+
+        return WindowGroup {
+            ContentView(coreDataViewModel: coreDataViewModel)
+                .environmentObject(SharedDataModel())
+
+
         }
-        .modelContainer(sharedModelContainer)
     }
 }
